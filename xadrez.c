@@ -2,7 +2,7 @@
 
 int main() {
     
-    // TORRE movimento com FOR
+    // TORRE movimento FOR
     int movimentosTorre = 5; // casas que vai andar
     printf("Movimento da Torre:\n");
     for (int i = 1; i <= movimentosTorre; i++) {
@@ -12,7 +12,7 @@ int main() {
     printf("\n");
 
   
-    // BISPO movimento com WHILE
+    // BISPO movimento WHILE
     int movimentosBispo = 5; // casas que vai andar
     int contadorBispo = 1;
     printf("Movimento do Bispo:\n");
